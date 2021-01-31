@@ -23,6 +23,7 @@
 #import "AppsForItem.h"
 #import <OmniFoundation/NSString-OFExtensions.h>
 #import "NSURL-Extensions.h"
+#import <CocoaTechStrings/NTLocalizedString.h>
 
 @interface MainWindowController(Private)
 - (void) moveToTrashSheetDidDismiss: (NSWindow*) sheet returnCode: (int) returnCode contextInfo: (void*) contextInfo;

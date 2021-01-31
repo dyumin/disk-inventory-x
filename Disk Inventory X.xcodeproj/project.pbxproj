@@ -13,7 +13,6 @@
 		FC2C2CA3238C802600D04E20 /* macOS privacy protected folders.txt in Resources */ = {isa = PBXBuildFile; fileRef = FC2C2CA1238C802600D04E20 /* macOS privacy protected folders.txt */; };
 		FC2E58FF21D3BFDF00F6F03B /* Disk Inventory Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FC2E58FE21D3BFDF00F6F03B /* Disk Inventory Icon.png */; };
 		FC33B45A230C846F00133632 /* NSURL-Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = FC33B459230C846F00133632 /* NSURL-Extensions.m */; };
-		FC347FA022CBDFE60002CDED /* TreeMapView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC745C8D21C048D00023DC2D /* TreeMapView.framework */; };
 		FC347FA122CBDFED0002CDED /* OmniAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC347F9322CBDF650002CDED /* OmniAppKit.framework */; };
 		FC347FA222CBDFED0002CDED /* OmniBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC347F9422CBDF660002CDED /* OmniBase.framework */; };
 		FC347FA322CBDFED0002CDED /* OmniFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC347F9222CBDF650002CDED /* OmniFoundation.framework */; };
@@ -96,14 +95,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FC2E590521D439CF00F6F03B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FC745C8821C048D00023DC2D /* TreeMapView.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
-			remoteInfo = TreeMapView;
-		};
-		FC745C8C21C048D00023DC2D /* PBXContainerItemProxy */ = {
+		CCBC26D625C724CD008D260F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FC745C8821C048D00023DC2D /* TreeMapView.xcodeproj */;
 			proxyType = 2;
@@ -160,7 +152,7 @@
 		FC347F9322CBDF650002CDED /* OmniAppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OmniAppKit.framework; path = "Disk-Inventory-X/OmniFrameworks/OmniAppKit.framework"; sourceTree = "<group>"; };
 		FC347F9422CBDF660002CDED /* OmniBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OmniBase.framework; path = "Disk-Inventory-X/OmniFrameworks/OmniBase.framework"; sourceTree = "<group>"; };
 		FC347F9822CBDF870002CDED /* TreeMapView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TreeMapView.framework; path = ../../../../TreeMapView/vdev/make/Build/Release/TreeMapView.framework; sourceTree = "<group>"; };
-		FC347F9A22CBDFA20002CDED /* CocoaTechStrings.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaTechStrings.framework; path = ../../../../PathFinder_4.8.5_SDK/build/Release/CocoaTechStrings.framework; sourceTree = "<group>"; };
+		FC347F9A22CBDFA20002CDED /* CocoaTechStrings.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaTechStrings.framework; path = "Disk-Inventory-X/CocoaTech/CocoaTechStrings.framework"; sourceTree = "<group>"; };
 		FC347F9B22CBDFA20002CDED /* CocoatechCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoatechCore.framework; path = ../../../../PathFinder_4.8.5_SDK/build/Release/CocoatechCore.framework; sourceTree = "<group>"; };
 		FC347F9C22CBDFA20002CDED /* CocoatechFile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoatechFile.framework; path = ../../../../PathFinder_4.8.5_SDK/build/Release/CocoatechFile.framework; sourceTree = "<group>"; };
 		FC42B8622202405A0080570A /* es */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = es; path = es.lproj/TreeMapPreferencesPage.nib; sourceTree = "<group>"; };
@@ -180,7 +172,7 @@
 		FC4C4AC009802035004CCA22 /* English */ = {isa = PBXFileReference; lastKnownFileType = folder; name = English; path = English.lproj/Help; sourceTree = "<group>"; };
 		FC4C4FF40981520A004CCA22 /* AppsForItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppsForItem.h; sourceTree = "<group>"; };
 		FC4C4FF50981520A004CCA22 /* AppsForItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppsForItem.m; sourceTree = "<group>"; };
-		FC745C8821C048D00023DC2D /* TreeMapView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TreeMapView.xcodeproj; path = ../../../../TreeMapView/vdev/make/src/TreeMapView.xcodeproj; sourceTree = "<group>"; };
+		FC745C8821C048D00023DC2D /* TreeMapView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TreeMapView.xcodeproj; path = "treemapview-framework/TreeMapView.xcodeproj"; sourceTree = "<group>"; };
 		FC7F775B1067BAB10090E839 /* NTFilePasteboardSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTFilePasteboardSource.h; sourceTree = "<group>"; };
 		FC7F775C1067BAB10090E839 /* NTFilePasteboardSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTFilePasteboardSource.m; sourceTree = "<group>"; };
 		FC7F77621067BC310090E839 /* NTInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTInfoView.h; sourceTree = "<group>"; };
@@ -317,7 +309,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */,
-				FC347FA022CBDFE60002CDED /* TreeMapView.framework in Frameworks */,
 				FC347FA622CBDFF20002CDED /* CocoaTechStrings.framework in Frameworks */,
 				FC347FA122CBDFED0002CDED /* OmniAppKit.framework in Frameworks */,
 				FC347FA222CBDFED0002CDED /* OmniBase.framework in Frameworks */,
@@ -429,6 +420,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CCBC26D325C724CD008D260F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCBC26D725C724CD008D260F /* TreeMapView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		FC33B457230C842700133632 /* Foundation Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -458,14 +457,6 @@
 				FC347F9222CBDF650002CDED /* OmniFoundation.framework */,
 			);
 			name = OmniGroup;
-			sourceTree = "<group>";
-		};
-		FC745C8921C048D00023DC2D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FC745C8D21C048D00023DC2D /* TreeMapView.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		FC7F775A1067BAB10090E839 /* CocoaTech-Depreciated */ = {
@@ -701,7 +692,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				FC2E590621D439CF00F6F03B /* PBXTargetDependency */,
 			);
 			name = "Disk Inventory X";
 			productInstallPath = "$(HOME)/Applications";
@@ -745,7 +735,7 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = FC745C8921C048D00023DC2D /* Products */;
+					ProductGroup = CCBC26D325C724CD008D260F /* Products */;
 					ProjectRef = FC745C8821C048D00023DC2D /* TreeMapView.xcodeproj */;
 				},
 			);
@@ -757,11 +747,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		FC745C8D21C048D00023DC2D /* TreeMapView.framework */ = {
+		CCBC26D725C724CD008D260F /* TreeMapView.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = TreeMapView.framework;
-			remoteRef = FC745C8C21C048D00023DC2D /* PBXContainerItemProxy */;
+			remoteRef = CCBC26D625C724CD008D260F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -876,14 +866,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		FC2E590621D439CF00F6F03B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TreeMapView;
-			targetProxy = FC2E590521D439CF00F6F03B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		FC4C4ABF09802035004CCA22 /* Help */ = {
@@ -1059,7 +1041,7 @@
 					"$(FRAMEWORK_SEARCH_PATHS_OMNI)",
 					"$(FRAMEWORK_SEARCH_PATHS_TREEMAP)",
 				);
-				FRAMEWORK_SEARCH_PATHS_COCOATECH = "\"$(SRCROOT)/../../../../PathFinder_4.8.5_SDK/build/Debug\"";
+				FRAMEWORK_SEARCH_PATHS_COCOATECH = "\"$(SRCROOT)/Disk-Inventory-X/CocoaTech\"";
 				FRAMEWORK_SEARCH_PATHS_OMNI = "\"$(SRCROOT)/Disk-Inventory-X/OmniFrameworks\"";
 				FRAMEWORK_SEARCH_PATHS_TREEMAP = "\"$(SRCROOT)/../../../../TreeMapView/vdev/make/Build/Products/Debug\"";
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -1100,7 +1082,7 @@
 					"$(FRAMEWORK_SEARCH_PATHS_OMNI)",
 					"$(FRAMEWORK_SEARCH_PATHS_TREEMAP)",
 				);
-				FRAMEWORK_SEARCH_PATHS_COCOATECH = "\"$(SRCROOT)/../../../../PathFinder_4.8.5_SDK/build/Release\"";
+				FRAMEWORK_SEARCH_PATHS_COCOATECH = "\"$(SRCROOT)/Disk-Inventory-X/CocoaTech\"";
 				FRAMEWORK_SEARCH_PATHS_OMNI = "\"$(SRCROOT)/Disk-Inventory-X/OmniFrameworks\"";
 				FRAMEWORK_SEARCH_PATHS_TREEMAP = "\"$(SRCROOT)/../../../../TreeMapView/vdev/make/Build/Release\"";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;

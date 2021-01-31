@@ -24,6 +24,7 @@
 #import "FSItem-Utilities.h"
 #import <OmniFoundation/NSArray-OFExtensions.h>
 #import "NSFileManager-Extensions.h"
+#import <CocoaTechStrings/NTLocalizedString.h>
 
 NSString *CollectFileKindStatisticsCanceledException = @"CollectFileKindStatisticsCanceledException";
 
