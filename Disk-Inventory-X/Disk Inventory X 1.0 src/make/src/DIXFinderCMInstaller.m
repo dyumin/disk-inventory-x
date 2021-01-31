@@ -127,7 +127,7 @@
 
 - (BOOL) installToDomain: (int) domain
 {
-	OBPRECONDITION( domain == kUserDomain || domain == kLocalDomain );
+	assert( domain == kUserDomain || domain == kLocalDomain );
 	
 	NTFileDesc *installedExtensionDesc = [self installedExtensionDesc];
 	NTFileDesc *builtInExtensionDesc = [self builtInExtensionDesc];
@@ -193,7 +193,7 @@
 
 - (NSString*) extensionPathForDomain: (int) domain
 {
-	OBPRECONDITION( domain == kUserDomain || domain == kLocalDomain );
+	assert( domain == kUserDomain || domain == kLocalDomain );
 	
 	NSString *extensionPath;
 	if ( domain == kUserDomain )

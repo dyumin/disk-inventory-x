@@ -7,8 +7,8 @@
 //
 
 #import "PrefsPanelController.h"
-#import <OmniAppKit/OAPreferenceClientRecord.h>
-#import <OmniAppKit/OAPreferenceClient.h>
+//#import <OmniAppKit/OAPreferenceClientRecord.h>
+//#import <OmniAppKit/OAPreferenceClient.h>
 
 @interface OAPreferenceController(MakeVisible)
 - (void)_restoreDefaultsSheetDidEnd:(NSWindow *)sheet returnCode:(int)returnCode contextInfo:(void *)contextInfo;
@@ -47,7 +47,7 @@
 	{
         // warn & wipe all prefs shown in all pages
         NSEnumerator *clientEnumerator;
-        OAPreferenceClientRecord *aClientRecord;
+        NSObject *aClientRecord;
 		
 		NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
         

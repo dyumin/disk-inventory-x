@@ -29,7 +29,7 @@
 	NTFileDesc *desc = [self desc];
 	
 	NSMutableArray *infoPairs = (NSMutableArray*) [super infoPairs];
-	OBPRECONDITION( [infoPairs isKindOfClass: [NSMutableArray class]] );
+	assert( [infoPairs isKindOfClass: [NSMutableArray class]] );
 
 	//NTInfoView shows the display name (possibly localized and with hidden extension), but we want the "raw" name
 	//(the display name is shown above next to the image in the inspector panel)

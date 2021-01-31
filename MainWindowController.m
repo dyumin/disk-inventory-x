@@ -24,6 +24,15 @@
 #import "NSURL-Extensions.h"
 #import <CocoaTechStrings/NTLocalizedString.h>
 
+@implementation NSString (isEmptyString)
+
++ (bool) isEmptyString:(NSString*)string
+{
+    return !string.length;
+}
+
+@end
+
 @interface MainWindowController(Private)
 - (void) moveToTrashSheetDidDismiss: (NSWindow*) sheet returnCode: (int) returnCode contextInfo: (void*) contextInfo;
 @end
@@ -107,7 +116,7 @@
 		[_splitter setVertical: NO];		
 	}
 	
-	[_splitter setPositionAutosaveName: @"MainWindowSplitter"];
+//	[_splitter setPositionAutosaveName: @"MainWindowSplitter"];
 	
     [_kindsDrawer toggle: self];
 	//[_selectionListDrawer toggle: self];
@@ -137,7 +146,7 @@
 
 - (IBAction) openFile:(id)sender
 {
-	OBPRECONDITION( [sender isKindOfClass: [NSMenuItem class]] );
+	assert( [sender isKindOfClass: [NSMenuItem class]] );
 	NSMenuItem *menuItem = (NSMenuItem*) sender;
 	
 	FSItem *selectedItem = [(FileSystemDoc*)[self document] selectedItem];
@@ -182,8 +191,8 @@
     FileSystemDoc *doc = [self document];
 	FSItem *item = [sender representedObject];
 	
-	OBPRECONDITION( [doc rootItem] == [item root] );
-	OBPRECONDITION( [[doc zoomStack] indexOfObjectIdenticalTo: item] != NSNotFound );
+	assert( [doc rootItem] == [item root] );
+	assert( [[doc zoomStack] indexOfObjectIdenticalTo: item] != NSNotFound );
 	
     FSItem *currentZoomedItem = [doc zoomedItem];
 		
@@ -501,7 +510,7 @@
 //populates the "Open With" sub menu which the default and additional applications which can open the selected file
 - (void) menuNeedsUpdate: (NSMenu*) menu
 {	
-	OBPRECONDITION( _openWithSubMenu == menu );
+	assert( _openWithSubMenu == menu );
 	
     FSItem *selectedItem = [(FileSystemDoc*)[self document] selectedItem];
 	if ( selectedItem == nil )

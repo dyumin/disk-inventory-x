@@ -83,7 +83,7 @@
 		[_splitter setVertical: NO];		
 	}
 	
-	[_splitter setPositionAutosaveName: @"MainWindowSplitter"];
+//	[_splitter setPositionAutosaveName: @"MainWindowSplitter"];
 	
     [_kindsDrawer toggle: self];
 	//[_selectionListDrawer toggle: self];
@@ -142,8 +142,8 @@
     FileSystemDoc *doc = [self document];
 	FSItem *item = [sender representedObject];
 	
-	OBPRECONDITION( [doc rootItem] == [item root] );
-	OBPRECONDITION( [[doc zoomStack] indexOfObjectIdenticalTo: item] != NSNotFound );
+	assert( [doc rootItem] == [item root] );
+	assert( [[doc zoomStack] indexOfObjectIdenticalTo: item] != NSNotFound );
 	
     FSItem *currentZoomedItem = [doc zoomedItem];
 		

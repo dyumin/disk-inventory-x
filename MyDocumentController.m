@@ -204,7 +204,7 @@ BOOL g_EnableLogging;
 
 - (void) menuNeedsUpdate: (NSMenu*) zoomStackMenu
 {
-	OBPRECONDITION( _zoomStackMenu == zoomStackMenu );
+	assert( _zoomStackMenu == zoomStackMenu );
 	
 	FileSystemDoc *doc = [self currentDocument];
 	NSArray *zoomStack = [doc zoomStack];

@@ -14,7 +14,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import <OmniAppKit/OAToolbarWindowController.h>
+//#import <OmniAppKit/OAToolbarWindowController.h>
 
 @interface NSToolbarItemValidationAdapter : NSObject
 {
@@ -26,7 +26,7 @@
 
 @end
 
-@interface OAToolbarWindowControllerEx : OAToolbarWindowController {
+@interface OAToolbarWindowControllerEx : NSWindowController {
 
 }
 

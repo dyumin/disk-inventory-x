@@ -14,7 +14,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import <OmniAppKit/OAPreferenceClient.h>
+//#import <OmniAppKit/OAPreferenceClient.h>
 
-@interface PrefsPageBase : OAPreferenceClient
+@interface PrefsPageBase : NSUserDefaultsController
 @end

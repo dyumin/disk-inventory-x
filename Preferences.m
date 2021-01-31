@@ -72,6 +72,21 @@ NSString *ShareKindColors				= @"ShareKindColors";
 
 @end
 
+@implementation NSMutableDictionary(whatever)
+
+- (BOOL) boolForKey:(NSString*)key
+{
+    return [[self valueForKey:key] boolValue];
+}
+
+- (void) setBoolValue:(BOOL)value forKey:(NSString*)key
+{
+    [self setValue:@(value) forKey:key];
+}
+
+
+@end
+
 #pragma mark ----------------- NSMutableDictionary(PreferencesValues) -------------------
 
 @interface NSMutableDictionary(DocumentPreferences_Private)
@@ -147,6 +162,12 @@ NSString *ShareKindColors				= @"ShareKindColors";
 - (void) copyValuesFromSharedDefaults
 {
 	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+//
+//    [self setValue:@([defaults boolForKey:ShowPackageContents]) forKey:ShowPackageContents];
+//    [self setValue:@([defaults boolForKey:ShowFreeSpace]) forKey:ShowFreeSpace];
+//    [self setValue:@([defaults boolForKey:ShowOtherSpace]) forKey:ShowOtherSpace];
+//    [self setValue:@([defaults boolForKey:IgnoreCreatorCode]) forKey:IgnoreCreatorCode];
+//    [self setValue:@([defaults boolForKey:ShowPhysicalFileSize]) forKey:ShowPhysicalFileSize];
 	
 #define COPYVALUEBOOL( name ) [self setBoolValue: [defaults boolForKey: name] forKey: name]
 	
