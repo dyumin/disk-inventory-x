@@ -14,7 +14,6 @@
 //
 
 #import "OAToolbarWindowControllerEx.h"
-#import <OmniFoundation/NSString-OFExtensions.h>
 #import <OmniAppKit/OAToolbarItem.h>
 
 @implementation NSToolbarItemValidationAdapter

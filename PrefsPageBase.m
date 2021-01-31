@@ -14,7 +14,6 @@
 //
 
 #import "PrefsPageBase.h"
-#import <OmniFoundation/OFNull.h>
 
 @implementation PrefsPageBase
 
