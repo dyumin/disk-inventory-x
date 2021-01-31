@@ -14,10 +14,10 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import <OmniAppKit/OAPreferenceController.h>
+//#import <OmniAppKit/OAPreferenceController.h>
 
 
-@interface PrefsPanelController : OAPreferenceController {
+@interface PrefsPanelController : NSObject {
 
 }
 

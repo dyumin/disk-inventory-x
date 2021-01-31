@@ -14,8 +14,7 @@
 //
 
 #import "OAToolbarWindowControllerEx.h"
-#import <OmniFoundation/NSString-OFExtensions.h>
-#import <OmniAppKit/OAToolbarItem.h>
+//#import <OmniAppKit/OAToolbarItem.h>
 
 @implementation NSToolbarItemValidationAdapter
 
@@ -250,7 +249,7 @@ static NSMutableDictionary *g_toolbatStateImages = nil;
 	//This "problem" can be solved to set ourself as the delegate. OAToolbarItem's delegate
 	//has the last word in the validation process.
 	//(OAToolbarWindowController does this only for items with a custom view).
-    [(OAToolbarItem*)toolbarItem setDelegate: self];
+    [toolbarItem setDelegate: self];
 	
 	return toolbarItem;
 }

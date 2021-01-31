@@ -189,11 +189,11 @@ BOOL g_EnableLogging;
     //[[OAController sharedController] applicationDidFinishLaunching:notification];
 
     //show donate message
-	if ( ![[NSUserDefaults standardUserDefaults] boolForKey: DontShowDonationMessage] )
-	{
-		[NSBundle loadNibNamed: @"DonationPanel" owner:self];
-		[_donationPanel setWorksWhenModal: YES];
-	}
+//	if ( ![[NSUserDefaults standardUserDefaults] boolForKey: DontShowDonationMessage] )
+//	{
+//		[NSBundle loadNibNamed: @"DonationPanel" owner:self];
+//		[_donationPanel setWorksWhenModal: YES];
+//	}
 	
 //	DIXFinderCMInstaller *installer = [DIXFinderCMInstaller installer];
 //	if ( ![installer isInstalled] )
@@ -204,7 +204,7 @@ BOOL g_EnableLogging;
 
 - (void) menuNeedsUpdate: (NSMenu*) zoomStackMenu
 {
-	OBPRECONDITION( _zoomStackMenu == zoomStackMenu );
+	assert( _zoomStackMenu == zoomStackMenu );
 	
 	FileSystemDoc *doc = [self currentDocument];
 	NSArray *zoomStack = [doc zoomStack];

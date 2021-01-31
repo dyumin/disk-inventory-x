@@ -106,7 +106,7 @@
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Disk Inventory X needs to access photo libraries to inspect their sizes and other file attributes.\nNo data will be read.</string>
 	<key>NSPrincipalClass</key>
-	<string>OAApplication</string>
+	<string>NSApplication</string>
 	<key>NSRemindersUsageDescription</key>
 	<string>Disk Inventory X needs to access reminders to inspect their sizes and other file attributes.\nNo data will be read.</string>
 	<key>NSRemovableVolumesUsageDescription</key>

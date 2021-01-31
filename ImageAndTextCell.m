@@ -44,7 +44,16 @@
 
 #import "ImageAndTextCell.h"
 //#import <OmniAppKit/NSString-OAExtensions.h>
-#import <OmniFoundation/NSString-OFUnicodeCharacters.h>
+
+
+@implementation NSString (OFUnicodeCharacters)
+
++ (NSString *)horizontalEllipsisString
+{
+    return @"...";
+}
+
+@end
 
 #define TEXT_OFFSET	10	//space between image and text
 #define IMAGE_OFFSET	5	//space between left side of cell rect and image

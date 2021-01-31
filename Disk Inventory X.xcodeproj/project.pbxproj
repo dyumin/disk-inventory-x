@@ -10,19 +10,12 @@
 		8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
 		CCBC26DB25C725F0008D260F /* TreeMapView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBC26D725C724CD008D260F /* TreeMapView.framework */; };
 		CCBC26DC25C725F0008D260F /* TreeMapView.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CCBC26D725C724CD008D260F /* TreeMapView.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CCBC26EC25C75FA2008D260F /* NTLocalizedString.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBC26EB25C75FA2008D260F /* NTLocalizedString.m */; };
 		FC2A428A2219C89900A484D7 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2A42892219C89900A484D7 /* AppController.m */; };
 		FC2C2CA2238C802600D04E20 /* memory usage using NSURL.txt in Resources */ = {isa = PBXBuildFile; fileRef = FC2C2CA0238C802600D04E20 /* memory usage using NSURL.txt */; };
 		FC2C2CA3238C802600D04E20 /* macOS privacy protected folders.txt in Resources */ = {isa = PBXBuildFile; fileRef = FC2C2CA1238C802600D04E20 /* macOS privacy protected folders.txt */; };
 		FC2E58FF21D3BFDF00F6F03B /* Disk Inventory Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FC2E58FE21D3BFDF00F6F03B /* Disk Inventory Icon.png */; };
 		FC33B45A230C846F00133632 /* NSURL-Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = FC33B459230C846F00133632 /* NSURL-Extensions.m */; };
-		FC347FA122CBDFED0002CDED /* OmniAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC347F9322CBDF650002CDED /* OmniAppKit.framework */; };
-		FC347FA222CBDFED0002CDED /* OmniBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC347F9422CBDF660002CDED /* OmniBase.framework */; };
-		FC347FA322CBDFED0002CDED /* OmniFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC347F9222CBDF650002CDED /* OmniFoundation.framework */; };
-		FC347FA622CBDFF20002CDED /* CocoaTechStrings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC347F9A22CBDFA20002CDED /* CocoaTechStrings.framework */; };
-		FC347FA822CBE0340002CDED /* OmniAppKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FC347F9322CBDF650002CDED /* OmniAppKit.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		FC347FA922CBE0340002CDED /* OmniBase.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FC347F9422CBDF660002CDED /* OmniBase.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		FC347FAA22CBE0340002CDED /* OmniFoundation.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FC347F9222CBDF650002CDED /* OmniFoundation.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		FC347FAD22CBE0340002CDED /* CocoaTechStrings.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FC347F9A22CBDFA20002CDED /* CocoaTechStrings.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		FC4C4AC109802035004CCA22 /* Help in Resources */ = {isa = PBXBuildFile; fileRef = FC4C4ABF09802035004CCA22 /* Help */; };
 		FC4C4FF70981520A004CCA22 /* AppsForItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4C4FF50981520A004CCA22 /* AppsForItem.m */; };
 		FC7F775D1067BAB10090E839 /* NTFilePasteboardSource.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7F775C1067BAB10090E839 /* NTFilePasteboardSource.m */; };
@@ -112,10 +105,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				FC347FA822CBE0340002CDED /* OmniAppKit.framework in CopyFiles */,
-				FC347FA922CBE0340002CDED /* OmniBase.framework in CopyFiles */,
-				FC347FAA22CBE0340002CDED /* OmniFoundation.framework in CopyFiles */,
-				FC347FAD22CBE0340002CDED /* CocoaTechStrings.framework in CopyFiles */,
 				CCBC26DC25C725F0008D260F /* TreeMapView.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -128,6 +117,8 @@
 		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32DBCF750370BD2300C91783 /* Disk Inventory X_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Disk Inventory X_Prefix.pch"; sourceTree = "<group>"; };
 		8D15AC370486D014006FF6A4 /* Disk Inventory X.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Disk Inventory X.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCBC26EA25C75FA2008D260F /* NTLocalizedString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTLocalizedString.h; sourceTree = "<group>"; };
+		CCBC26EB25C75FA2008D260F /* NTLocalizedString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTLocalizedString.m; sourceTree = "<group>"; };
 		FC2A42882219C89900A484D7 /* AppController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
 		FC2A42892219C89900A484D7 /* AppController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
 		FC2C2CA0238C802600D04E20 /* memory usage using NSURL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "memory usage using NSURL.txt"; path = "documentation/memory usage using NSURL.txt"; sourceTree = "<group>"; };
@@ -149,12 +140,6 @@
 		FC2E58FE21D3BFDF00F6F03B /* Disk Inventory Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Disk Inventory Icon.png"; sourceTree = "<group>"; };
 		FC33B458230C846F00133632 /* NSURL-Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL-Extensions.h"; sourceTree = SOURCE_ROOT; };
 		FC33B459230C846F00133632 /* NSURL-Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL-Extensions.m"; sourceTree = SOURCE_ROOT; };
-		FC347F9222CBDF650002CDED /* OmniFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OmniFoundation.framework; path = "Disk-Inventory-X/OmniFrameworks/OmniFoundation.framework"; sourceTree = "<group>"; };
-		FC347F9322CBDF650002CDED /* OmniAppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OmniAppKit.framework; path = "Disk-Inventory-X/OmniFrameworks/OmniAppKit.framework"; sourceTree = "<group>"; };
-		FC347F9422CBDF660002CDED /* OmniBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OmniBase.framework; path = "Disk-Inventory-X/OmniFrameworks/OmniBase.framework"; sourceTree = "<group>"; };
-		FC347F9A22CBDFA20002CDED /* CocoaTechStrings.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaTechStrings.framework; path = "Disk-Inventory-X/CocoaTech/CocoaTechStrings.framework"; sourceTree = "<group>"; };
-		FC347F9B22CBDFA20002CDED /* CocoatechCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoatechCore.framework; path = ../../../../PathFinder_4.8.5_SDK/build/Release/CocoatechCore.framework; sourceTree = "<group>"; };
-		FC347F9C22CBDFA20002CDED /* CocoatechFile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoatechFile.framework; path = ../../../../PathFinder_4.8.5_SDK/build/Release/CocoatechFile.framework; sourceTree = "<group>"; };
 		FC42B8622202405A0080570A /* es */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = es; path = es.lproj/TreeMapPreferencesPage.nib; sourceTree = "<group>"; };
 		FC42B8632202405A0080570A /* es */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = es; path = es.lproj/GeneralPreferencesPage.nib; sourceTree = "<group>"; };
 		FC42B8642202405A0080570A /* es */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = es; path = es.lproj/FinderCMPreferencesPage.nib; sourceTree = "<group>"; };
@@ -309,11 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */,
-				FC347FA622CBDFF20002CDED /* CocoaTechStrings.framework in Frameworks */,
-				FC347FA122CBDFED0002CDED /* OmniAppKit.framework in Frameworks */,
-				FC347FA222CBDFED0002CDED /* OmniBase.framework in Frameworks */,
 				CCBC26DB25C725F0008D260F /* TreeMapView.framework in Frameworks */,
-				FC347FA322CBDFED0002CDED /* OmniFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,9 +423,6 @@
 		FC66DB02107A27E600F46D76 /* CocoaTech */ = {
 			isa = PBXGroup;
 			children = (
-				FC347F9B22CBDFA20002CDED /* CocoatechCore.framework */,
-				FC347F9C22CBDFA20002CDED /* CocoatechFile.framework */,
-				FC347F9A22CBDFA20002CDED /* CocoaTechStrings.framework */,
 			);
 			name = CocoaTech;
 			sourceTree = "<group>";
@@ -452,9 +430,6 @@
 		FC66DCF5107A28A500F46D76 /* OmniGroup */ = {
 			isa = PBXGroup;
 			children = (
-				FC347F9322CBDF650002CDED /* OmniAppKit.framework */,
-				FC347F9422CBDF660002CDED /* OmniBase.framework */,
-				FC347F9222CBDF650002CDED /* OmniFoundation.framework */,
 			);
 			name = OmniGroup;
 			sourceTree = "<group>";
@@ -528,6 +503,8 @@
 				FCCFB2D3097FA42B009EA2B6 /* FileSizeTransformer.m */,
 				FC4C4FF40981520A004CCA22 /* AppsForItem.h */,
 				FC4C4FF50981520A004CCA22 /* AppsForItem.m */,
+				CCBC26EA25C75FA2008D260F /* NTLocalizedString.h */,
+				CCBC26EB25C75FA2008D260F /* NTLocalizedString.m */,
 			);
 			name = "Helper Classes";
 			sourceTree = "<group>";
@@ -705,7 +682,7 @@
 		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 1230;
 				TargetAttributes = {
 					8D15AC270486D014006FF6A4 = {
 						DevelopmentTeam = 65J464P6J4;
@@ -833,6 +810,7 @@
 				FCCFB310097FA42B009EA2B6 /* GeneralPrefPage.m in Sources */,
 				FCCFB312097FA42B009EA2B6 /* Timing.c in Sources */,
 				FCCFB313097FA42B009EA2B6 /* FileSizeFormatter.m in Sources */,
+				CCBC26EC25C75FA2008D260F /* NTLocalizedString.m in Sources */,
 				FCCFB314097FA42B009EA2B6 /* FileSizeTransformer.m in Sources */,
 				FCCFB315097FA42B009EA2B6 /* DIXFileInfoView.m in Sources */,
 				FCCFB316097FA42B009EA2B6 /* InfoPanelController.m in Sources */,
@@ -1028,7 +1006,6 @@
 		C05733C808A9546B00998B17 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -1068,7 +1045,6 @@
 		C05733C908A9546B00998B17 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -1108,12 +1084,36 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Disk Inventory X_Prefix.pch";
 				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1126,10 +1126,34 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Disk Inventory X_Prefix.pch";
 				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				SDKROOT = macosx;
