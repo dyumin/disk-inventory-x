@@ -47,7 +47,7 @@
 		FCE43AB9070B54E200E18050 /* TMVItem.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TMVItem.h; sourceTree = SOURCE_ROOT; };
 		FCE43ABA070B54E200E18050 /* TMVItem.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = TMVItem.m; sourceTree = SOURCE_ROOT; };
 		FCE43ABB070B54E200E18050 /* TreeMapView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TreeMapView.h; sourceTree = SOURCE_ROOT; };
-		FCE43ABC070B54E200E18050 /* TreeMapView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = TreeMapView.m; sourceTree = SOURCE_ROOT; };
+		FCE43ABC070B54E200E18050 /* TreeMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeMapView.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

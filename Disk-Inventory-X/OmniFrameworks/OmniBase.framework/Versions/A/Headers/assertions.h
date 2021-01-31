@@ -44,7 +44,7 @@ extern void OBLogAssertionFailure(const char *type, const char *expression, cons
     #define OBPRECONDITION(expression)                                            \
     do {                                                                        \
         if (!(expression))                                                      \
-            OBAssertFailed("PRECONDITION", #expression, __FILE__, __LINE__);    \
+            assert(false); /* Todo(dyumin@github.com): breakin change */        \
     } while (NO)
 
     #define OBPOSTCONDITION(expression)                                           \
