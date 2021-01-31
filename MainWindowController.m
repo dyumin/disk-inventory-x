@@ -22,7 +22,7 @@
 #import "FileSizeTransformer.h"
 #import "AppsForItem.h"
 #import "NSURL-Extensions.h"
-#import <CocoaTechStrings/NTLocalizedString.h>
+#import "NTLocalizedString.h"
 
 @implementation NSString (isEmptyString)
 

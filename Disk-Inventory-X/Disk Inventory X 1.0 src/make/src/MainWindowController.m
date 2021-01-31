@@ -12,7 +12,7 @@
 #import <TreeMapView/TreeMapView.h>
 #import "FSItem-Utilities.h"
 #import "FileSizeTransformer.h"
-#import <CocoaTechStrings/NTLocalizedString.h>
+#import "NTLocalizedString.h"
 #import "NTDefaultDirectory-Utilities.h"
 
 @interface MainWindowController(Private)

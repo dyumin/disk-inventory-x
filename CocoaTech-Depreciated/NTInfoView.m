@@ -10,7 +10,7 @@
 #import "NTTitledInfoPair.h"
 #import "AppsForItem.h"
 #import "NSURL-Extensions.h"
-#import <CocoaTechStrings/NTLocalizedString.h>
+#import "NTLocalizedString.h"
 
 #pragma warning "ID3 support removed"
 //#import "NTID3Helper.h"

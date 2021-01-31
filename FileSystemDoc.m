@@ -23,7 +23,7 @@
 #import "InfoPanelController.h"
 #import "FSItem-Utilities.h"
 #import "NSFileManager-Extensions.h"
-#import <CocoaTechStrings/NTLocalizedString.h>
+#import "NTLocalizedString.h"
 
 NSString *CollectFileKindStatisticsCanceledException = @"CollectFileKindStatisticsCanceledException";
 

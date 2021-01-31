@@ -1,6 +1,6 @@
 #import "NTID3Helper.h"
 #import <CocoaTechID3/CocoaTechID3.h>
-#import <CocoaTechStrings/NTLocalizedString.h>
+#import "NTLocalizedString.h"
 
 @implementation NTID3Helper
 
